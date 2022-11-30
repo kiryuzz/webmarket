@@ -52,9 +52,9 @@
     }
 
     if(cnt == 0) {
-        goods.setQuantity(1)
+        goods.setQuantity(1);
         list.add(goods);
     }
 
-    response.sendRedirect("produxt.java=" + id);
+    response.sendRedirect("product.jsp?id=" + id);
 %>
